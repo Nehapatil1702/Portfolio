@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="" class="logo"><b>Neha's Portfolio</b></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="My-project.html">My-Project</a></li>
+                    <li><a href="Accomplishment.html">Accomplishment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student of IMRD</p>
+                <h2>Hi,I'm <span>Neha</span> Bhamare</h2>
+            </div>
+        </div>
+    </div>
+    <!----------about-------------
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="img" src="D:\portfolio\images\picrupesh.jpeg" >
+                </div>
+                <div class="about-col-2"></div>
+                <h1>About Me </h1>
+            </div>
+        </div>
+    </div> ------->
+    <footer>
+        <small>
+        <p> copyright @ Neha Bhamare</p>
+    </small>
+    </footer>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
